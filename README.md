@@ -26,7 +26,7 @@ Follow these steps to get the app running on your computer:
     You need Python installed. Then, create a `requirements.txt` file (if you don't have one) listing all the libraries needed:
     ```bash
     # Run this once in your project folder to create requirements.txt
-    pip install streamlit pandas langchain langchain-core langchain-groq matplotlib python-dotenv pydantic
+    pip install streamlit pandas matplotlib python-dotenv langchain-core langchain-groq pydantic
     pip freeze > requirements.txt
     ```
     Then, you can install them using:
